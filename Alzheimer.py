@@ -16,6 +16,27 @@ st.set_page_config(
 # ================= COLORFUL CSS =================
 st.markdown("""
 <style>
+
+/* Main app background */
+.stApp {
+    background-color: #000000;
+    color: white;
+}
+
+/* Main content area */
+.main {
+    background-color: #000000;
+}
+
+/* Sidebar (if any) */
+section[data-testid="stSidebar"] {
+    background-color: #000000;
+}
+
+/* Headings & text */
+h1, h2, h3, h4, h5, h6, p, label, span {
+    color: white !important;
+}
 /* Background */
 .stApp {
     background-color: #050404;
@@ -166,6 +187,7 @@ st.markdown(
     "<div class='footer'>⚕️ For educational use only — Not a medical diagnosis</div>",
     unsafe_allow_html=True
 )
+
 
 
 
