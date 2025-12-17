@@ -17,10 +17,14 @@ st.set_page_config(
 st.markdown("""
 <style>
 
-
+/* FULL BLACK BACKGROUND */
 .stApp {
-    background-color: #050404;
-    
+    background-color: #000000;
+}
+
+/* Main content container */
+.block-container {
+    background-color: transparent;
 }
 
 /* Title */
@@ -28,26 +32,25 @@ st.markdown("""
     text-align: center;
     font-size: 42px;
     font-weight: 800;
-    background: linear-gradient(90deg, #1c92d2, #f2fcfe);
-    -webkit-background-clip: text;
-    color: transparent;
+    color: white;
 }
 
 /* Subtitle */
 .subtitle {
     text-align: center;
     font-size: 18px;
-    color: #4a4a4a;
+    color: #cccccc;
     margin-bottom: 20px;
 }
 
 /* Card */
 .card {
-    background: white;
+    background: #111111;
     padding: 25px;
     border-radius: 18px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    box-shadow: 0 10px 30px rgba(255,255,255,0.05);
     margin-bottom: 20px;
+    color: white;
 }
 
 /* Result Box */
@@ -57,7 +60,6 @@ st.markdown("""
     padding: 25px;
     border-radius: 16px;
     text-align: center;
-    box-shadow: 0 10px 25px rgba(118,75,162,0.4);
 }
 
 /* Upload Box */
@@ -65,22 +67,23 @@ st.markdown("""
     border: 2px dashed #6a5acd;
     padding: 20px;
     border-radius: 14px;
-    background: #f9f7ff;
+    background: #111111;
 }
 
 /* Footer */
 .footer {
     text-align: center;
     font-size: 13px;
-    color: #666;
+    color: #aaaaaa;
     margin-top: 30px;
 }
 
 /* Progress label */
 .progress-label {
     font-weight: 600;
-    color: #333;
+    color: white;
 }
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -167,6 +170,7 @@ st.markdown(
     "<div class='footer'>⚕️ For educational use only — Not a medical diagnosis</div>",
     unsafe_allow_html=True
 )
+
 
 
 
