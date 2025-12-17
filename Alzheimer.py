@@ -18,7 +18,7 @@ st.markdown("""
 <style>
 /* Background */
 .stApp {
-    background-color: #e0e0e0;
+    background-color: #050404;
     background: linear-gradient(135deg, #e0f2ff, #fef6ff);
 }
 
@@ -166,6 +166,7 @@ st.markdown(
     "<div class='footer'>⚕️ For educational use only — Not a medical diagnosis</div>",
     unsafe_allow_html=True
 )
+
 
 
 
