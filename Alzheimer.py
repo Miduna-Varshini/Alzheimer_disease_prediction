@@ -83,8 +83,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ================= GOOGLE DRIVE MODEL =================
-MODEL_URL = "https://drive.google.com/uc?id=YOUR_FILE_ID"
-MODEL_PATH = "alzheimer.h5"
+MODEL_URL = "1MxkGejVi-1LmT8Q9r26laxzYiQRMdGUj"
+MODEL_PATH = "AugmentedAlzheimer.h5"
 
 @st.cache_resource
 def load_alzheimer_model():
@@ -165,3 +165,4 @@ st.markdown(
     "<div class='footer'>⚕️ For educational use only — Not a medical diagnosis</div>",
     unsafe_allow_html=True
 )
+
